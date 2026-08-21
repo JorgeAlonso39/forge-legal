@@ -18,9 +18,9 @@
 </style>
 </head>
 <body>
-<p class="lang"><a href="privacidad.html">Versión en español</a></p>
+<p class="lang"><a href="privacidad.html">Versión en español</a> · <a href="terms.html">Terms of Use</a></p>
 <h1>FORGE Privacy Policy</h1>
-<p class="meta">Last updated: July 16, 2026 · App: FORGE (com.choc2056.gymtracker)</p>
+<p class="meta">Last updated: July 29, 2026 · App: FORGE (com.choc2056.gymtracker)</p>
 
 <h2>1. Data controller</h2>
 <p>FORGE is a workout tracking app developed by <strong>Choc2056</strong> ("the developer"). For any questions about this policy or your data, contact: <strong>[CONTACT-EMAIL]</strong> or via <a href="https://github.com/JorgeAlonso39/forge-legal/issues">GitHub</a>.</p>
@@ -31,56 +31,70 @@
   <tr><td>Account</td><td>Email address and password (stored encrypted by our authentication provider)</td><td>Yes</td></tr>
   <tr><td>Profile</td><td>Full name, username, avatar photo URL, sex, date of birth, height and weight</td><td>No (optional)</td></tr>
   <tr><td>Training</td><td>Exercises, sets, reps, lifted weights, personal records (1RM), workout templates</td><td>Only if you use the feature</td></tr>
-  <tr><td>Cardio &amp; location</td><td>Activity type, duration, distance, calories and <strong>precise GPS route</strong> (latitude, longitude and timestamp of each point) during cardio sessions you start</td><td>Only if you use the feature and grant location permission</td></tr>
+  <tr><td>Cardio &amp; location</td><td>Activity type, duration, distance, calories and <strong>precise GPS route</strong> during cardio sessions you start</td><td>Only if you use the feature and grant location permission</td></tr>
   <tr><td>Health &amp; measurements</td><td>Body weight, body fat and muscle percentage</td><td>Only if you use the feature</td></tr>
-  <tr><td>Nutrition</td><td>Logged foods, target calories and macronutrients</td><td>Only if you use the feature</td></tr>
+  <tr><td>Nutrition</td><td>Logged foods, favorites, meal templates, target calories and macronutrients</td><td>Only if you use the feature</td></tr>
   <tr><td>Social</td><td>Friendships, notifications and support reports you submit</td><td>Only if you use the feature</td></tr>
+  <tr><td>Wear OS</td><td>Watch pairing, workout session sync, and watch motion-sensor data used to estimate reps</td><td>Only if you use the companion Wear app</td></tr>
+  <tr><td>First-party product analytics</td><td>Usage events (e.g. app open, screens viewed, workout/nutrition/wear actions, technical errors), anonymous or authenticated user id, session id, platform and approximate app version</td><td>Automatic while using the app</td></tr>
+  <tr><td>Moderation &amp; security</td><td>Account status (active, suspended, banned, shadow ban), sanction reason/date when applicable, and logs of authorized staff actions</td><td>Only if a support or security action occurs</td></tr>
 </table>
 <p>The camera is used <strong>only</strong> to scan food barcodes. No photos or videos are captured, stored or transmitted.</p>
 <p>Location is used <strong>only in the foreground</strong>, while the cardio screen is open. The app never accesses your location in the background.</p>
 
 <h2>3. Purpose and legal basis</h2>
 <ul>
-  <li><strong>Providing the service</strong> (performance of contract, Art. 6(1)(b) GDPR): creating your account, storing and displaying your workouts, routes, measurements and nutrition.</li>
-  <li><strong>Personalized calculations</strong> (consent, Art. 6(1)(a) GDPR): sex, date of birth, height and weight are used only to calculate your target calories and macronutrients. They are optional and can be deleted at any time from your profile.</li>
-  <li><strong>Social features</strong> (consent): only if you enable "Appear in the Global Ranking", other users will see your username, avatar and records (1RM, lifted weight and reps). You can disable it at any time in your profile.</li>
+  <li><strong>Providing the service</strong> (performance of contract, Art. 6(1)(b) GDPR): creating your account, storing and displaying workouts, routes, measurements, nutrition and Wear sync.</li>
+  <li><strong>Personalized calculations</strong> (consent, Art. 6(1)(a) GDPR): sex, date of birth, height and weight for target calories/macros. Optional and deletable from your profile.</li>
+  <li><strong>Social features</strong> (consent): only if you enable "Appear in the Global Ranking".</li>
+  <li><strong>Product improvement and reliability</strong> (legitimate interest, Art. 6(1)(f) GDPR): first-party analytics to understand feature usage, detect errors and improve stability. Not used for advertising.</li>
+  <li><strong>Security, abuse and support</strong> (legitimate interest / legal obligation where applicable): detect ranking fraud, abuse or Terms violations; suspend or ban accounts; handle support requests.</li>
 </ul>
-<p>We do not use your data for advertising, we do not sell it, and we do not perform automated profiling with legal effects.</p>
+<p>We do not use your data for third-party advertising, we do not sell it, and we do not perform automated profiling with legal or similarly significant effects without appropriate safeguards.</p>
 
 <h2>4. What other users can see</h2>
 <ul>
   <li>Your <strong>friends</strong> can see your username, full name and avatar.</li>
-  <li>If you enable the <strong>Global Ranking</strong>, any user can see your username, avatar and strength records. Your email, GPS routes, body measurements and nutrition data are <strong>never</strong> visible to other users.</li>
+  <li>If you enable the <strong>Global Ranking</strong>, any user can see your username, avatar and strength records. Your email, GPS routes, body measurements, nutrition and analytics events are <strong>never</strong> visible to other users.</li>
+  <li>A <strong>shadow ban</strong> may hide or limit your social content for others while your account remains usable for you.</li>
 </ul>
 
-<h2>5. Processors and recipients</h2>
+<h2>5. Who can access your data</h2>
+<ul>
+  <li><strong>Technical processors</strong> listed in section 6.</li>
+  <li><strong>Authorized FORGE Ops support/moderation staff</strong>, only when needed for security, abuse, Terms enforcement or assistance. Actions are internally audited.</li>
+</ul>
+
+<h2>6. Processors and recipients</h2>
 <table>
   <tr><th>Service</th><th>Role</th><th>Data received</th></tr>
-  <tr><td><a href="https://supabase.com/privacy">Supabase</a></td><td>Authentication, database and server functions</td><td>All data described in section 2</td></tr>
-  <tr><td><a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a></td><td>Nutritional information lookup</td><td>Only the barcode or search text. Never personal data</td></tr>
-  <tr><td><a href="https://carto.com/privacy">CARTO</a></td><td>Cardio session maps</td><td>Your IP address and the coordinates of the map tiles you view</td></tr>
-  <tr><td>Google Fonts / Cloudflare cdnjs</td><td>Fonts and map icons</td><td>Your IP address when downloading the assets</td></tr>
+  <tr><td><a href="https://supabase.com/privacy">Supabase</a></td><td>Authentication, database and server functions</td><td>Service data described in section 2, including product events</td></tr>
+  <tr><td><a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a></td><td>Nutritional information lookup</td><td>Only barcode or search text. Never account personal data</td></tr>
+  <tr><td><a href="https://carto.com/privacy">CARTO</a></td><td>Cardio session maps</td><td>Your IP address and map tile coordinates you view</td></tr>
+  <tr><td>Google Fonts / Cloudflare cdnjs</td><td>Fonts and map icons</td><td>Your IP address when downloading assets</td></tr>
 </table>
-<p>The app does <strong>not</strong> integrate third-party advertising or analytics SDKs (no AdMob, no Google Analytics, no Firebase Analytics).</p>
+<p>The app does <strong>not</strong> integrate third-party advertising or analytics SDKs (no AdMob, no Google Analytics, no Firebase Analytics). Product telemetry is <strong>first-party</strong>.</p>
 
-<h2>6. Retention and deletion</h2>
-<p>Your data is kept while your account is active. You can <strong>permanently delete your account and all your data</strong>:</p>
+<h2>7. Retention and deletion</h2>
+<p>Account data is kept while your account is active. First-party analytics events may be kept for a limited time for statistics and debugging, then aggregated or deleted. You can <strong>permanently delete your account and user data</strong>:</p>
 <ul>
   <li>In the app: <em>Profile → Danger zone → Delete account</em>.</li>
   <li>On the web: <a href="eliminar-cuenta.html">account deletion request</a>.</li>
 </ul>
-<p>Deletion is immediate and irreversible: your account, profile, workouts, GPS routes, body measurements, nutrition logs, friendships and notifications are erased. We keep no copies unless legally required.</p>
+<p>Deletion is immediate and irreversible for your account, profile, workouts, GPS routes, measurements, nutrition, friendships and notifications. Minimal security/audit records or non-identifiable aggregates may be retained when legally required or for security.</p>
 
-<h2>7. Your rights (GDPR)</h2>
-<p>You can exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to the contact email above. You also have the right to lodge a complaint with your local data protection authority (in Spain, the <a href="https://www.aepd.es">AEPD</a>).</p>
+<h2>8. Your rights (GDPR)</h2>
+<p>You can exercise access, rectification, erasure, objection, restriction and portability by writing to the contact email above. You may also lodge a complaint with your local data protection authority (in Spain, the <a href="https://www.aepd.es">AEPD</a>).</p>
 
-<h2>8. Minimum age</h2>
-<p>FORGE is intended for people aged <strong>14 or older</strong>. By signing up you confirm you meet the minimum age. If we detect an account belonging to a child under 14 without parental consent, we will delete it.</p>
+<h2>9. Minimum age</h2>
+<p>FORGE is intended for people aged <strong>14 or older</strong>. By signing up you confirm you meet the minimum age. Accounts of children under 14 without parental consent will be deleted.</p>
 
-<h2>9. Security</h2>
-<p>All data is transmitted encrypted over HTTPS/TLS. Database access is protected with Row Level Security policies, so each user can only access their own data.</p>
+<h2>10. Security</h2>
+<p>Data is transmitted over HTTPS/TLS. End-user database access is protected with Row Level Security. Operations staff access requires authentication, permissions and, where applicable, multi-factor authentication.</p>
 
-<h2>10. Changes to this policy</h2>
-<p>If we modify this policy, we will publish the new version at this same address and update the "last updated" date. Substantial changes will be communicated within the app.</p>
+<h2>11. Changes to this policy</h2>
+<p>If we modify this policy, we will publish the new version at this same address and update the "last updated" date. Substantial changes will be communicated in the app when reasonable.</p>
+
+<p class="meta" style="margin-top:3em">See also the <a href="terms.html">Terms of Use</a>.</p>
 </body>
 </html>
